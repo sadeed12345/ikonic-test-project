@@ -1,0 +1,17 @@
+# package directories
+node_modules
+jspm_packages
+
+.vscode
+
+build
+npm-debug.log
+.env
+.DS_Store
+
+logs
+
+# Serverless directories
+.serverless
+
+*.bat

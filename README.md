@@ -1,1 +1,0 @@
-# ikonic-test-project
