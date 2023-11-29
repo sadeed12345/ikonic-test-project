@@ -34,7 +34,7 @@ exports.validateSession = async (req, res, next) => {
       // in sandbox/prod environments, body.loggedUserId must be equal to session.userInfo.userId
       req.session.userInfo.userId == req.body.loggedUserId
         ? handleAuthenticationSuccess()
-        : handleAuthenticationFailed();
+        : handleAuthenticationFailed(); 
     }
   } catch (err) {
     Logger.error("validateSession: " + err.message);
